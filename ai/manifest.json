@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "bio",
+  "description": "pak pak pak uit australië, heb die chemicaliën, PASTA UIT ITALIË!!!",
+  "version": "1.0",
+  "icons": {
+    "128": "bio.png"
+  },
+  "action": {
+    "default_title": "open bio popup",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "storage",
+    "clipboardWrite",
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://bvj.secure.malmberg.nl/*",
+        "https://*.secure.malmberg.nl/*",
+        "https://*.malmberg.nl/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}

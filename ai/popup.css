@@ -1,0 +1,130 @@
+.bio {
+    padding: 0px;
+    font-weight: 600;
+    font-size: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #0071bc;
+}
+
+.punt {
+    color: #ff6702;
+    white-space: nowrap;
+    font-size: 130px;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: "Segoe UI", Roboto, sans-serif;
+    background: #f3f6fa;
+    color: #1f1f1f;
+}
+
+
+button {
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.15s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #005b98;
+}
+
+#saveBtn{
+    background: #ff6702;
+    color: white;
+    font-weight: 400;
+    padding: 8px 16px;
+    font-size: 30px;
+
+}
+
+#playO{
+    padding: 30px 30px;
+    border-radius: 100px;
+    background-color: #ff0d0d;
+    color: #fff;
+    font-size: 20px;
+    box-shadow: #000 0px 5px 10px;
+
+}
+
+#togglePw {
+    background: #0099ff;
+    color: #ffffff;
+    margin-left: 8px;
+    padding: 8px 16px;
+    font-size: 15px;
+}
+
+#togglePw:hover {
+    background: #dbe2ea;
+}
+
+input[type="password"],
+input[type="text"] {
+    width: 240px;
+    padding: 8px 10px;
+    border: 1px solid #c8d1dc;
+    border-radius: 6px;
+    background: white;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+div {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+input[type="checkbox"] {
+    transform: scale(1.2);
+    margin-left: 6px;
+}
+
+
+
+
+.linkContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-family: "Segoe UI", Roboto, Arial, sans-serif;
+    width: 350px;
+}
+
+
+.linkContainer .link {
+    display: block;
+    background: #e9ecef;
+    padding: 14px 20px;
+    border-radius: 6px;
+    border: 1px solid #d8dce0;
+    font-size: 15px;
+    color: #0066a2;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+    transition: background 0.15s ease, box-shadow 0.15s ease;
+}
+
+.linkContainer .link:hover {
+    background: #0099ff;
+    color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+}
+
+.linkContainer .link:active {
+    background: #dde1e5;
+}
+h1{
+    color: #0099ff;
+}
+.puntK{
+    font-size: 50px;
+    color: #ff6702;
+}
