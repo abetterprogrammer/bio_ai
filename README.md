@@ -3,7 +3,8 @@ ai die je makkelijk het antwoord geeft voor biologie online: BVJ (biologie voor 
 
 download zip: https://github.com/abetterprogrammer/bio_ai/releases
 
-chrome://extensions schakel ontwikkelaarsmodus in, ingepakte extensie uitpakken, enable, klik op het extensie-pictogram en dan op deze extensie
+download de .zip en pak de .zip uit of clone deze repo
+cga naar hrome://extensions schakel ontwikkelaarsmodus in, uitgepakte extensie laden, klik op het extensie-pictogram en dan op deze extensie
 
 Kan ook edge://extensions, firefox://extensions etc
 
